@@ -1,0 +1,233 @@
+@charset "UTF-8";
+ @import url("static/fonts/Montserrat/fonts/webfonts/Montserrat.css");
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+ 
+ html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+/* Body */
+body {
+	background: linear-gradient(45deg, #21d4fd, #b721ff);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	/*color: #666666;*/
+	color: #585858; /*text color*/
+	text-align: left;
+	background-color: #00a7a7; /*table color
+	margin: 0;
+}
+
+/**********************************************************/
+/*
+/*
+/*           customization per course : Course 1 (Aquamarine)
+/* Aquamarine Colors */
+/* #DEF6F9  lightest aquamarine 
+/* #C3EFF4 light
+/* #B9ECF3
+/* #A2E0E8
+/* gray for text #71959A or dark blue for text #005661*/
+/*
+/*
+/**********************************************************/
+
+.course1_bg{
+	background-color: #00a7a7;
+}
+
+.header1 { /* Controls the box with the name of the program at the top of the page */
+	width: 100%;
+	height: 8%;
+	background-color: #FAFAFA; 
+	color: #0f4267;
+	border-bottom: 30px solid #0f4267;
+	font-weight: bold;
+	margin-left: auto;
+	letter-spacing: 4px;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 2em;
+	font-size: 22px;
+	
+}
+
+.hdr_format{ /*table heading labels */
+	background-color:#62a5ba;  
+	color:#FFFFFF; 
+	height: 50px;
+	text-align: center; 
+	vertical-align: middle; 
+	text-transform: uppercase; 	
+	font-weight: bold; 	
+	letter-spacing: 2px;
+}	
+
+.course1_tbl_bg{ /* Big table : background color */
+	background-color: #FAFAFA; 
+	border:1px;
+	text-align: left;
+	vertical-align: center;
+/*	border-collapse:collapse;*/
+	
+}
+
+/**********************************************************/
+/*
+/*
+/*           customization per course : Course 2
+/*
+
+/*
+/**********************************************************/
+
+.header2 {/* Controls the box with the name of the program at the top of the page */
+	width: 100%;
+	height: 8%;
+	color: #ffffff;
+	background-color: #0f4267;
+	font-weight: bold;
+	margin-left: auto;
+	letter-spacing: 4px;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 2em;
+	font-size: 22px;
+	
+}
+
+.course2_tbl_bg{ /* Big table : background color */
+	background-color: #EBECF0;
+	
+}
+
+/**********************************************************/
+/*
+/*
+/*           customization per course : Course 3
+/*
+/*
+/**********************************************************/
+	
+.header3 { /* Controls the box with the name of the program at the top of the page */
+	width: 100%;
+	height: 8%;
+	background-color: #78A697; /*5D5E5D;*/
+	border-bottom: 10px solid #51645A;
+}
+
+
+.tbl_hdr_bgcolor3{ /*table label headings*/
+	background-color: #5d5e5d;
+	color:#FAFAFA;
+	
+	
+}
+
+.course3_tbl_bg{ /* Big table : background color */
+	background-color: #FAFAFA;
+}
+
+
+.logo{color:#FAFAFA}
+
+/**********************************************************/
+/*
+/*
+/*           customization per course : Course 4
+/* Pink Colors
+/* #F9F4F6
+/* #FCDEE8
+/* #FCB5CD
+/* #FF80AB
+/* #915267
+/* 
+
+or 
+/* #F9F4F6
+/* #FCDEE8
+/* #FCB5CD
+/* #F06292
+/* #915267
+/*
+/*
+/**********************************************************/
+
+.course4_bg{
+	background-color: #F9F4F6;
+}
+.course4_tbl_bg{
+	background-color: #FCB5CD;
+	
+}
+.header4 {
+	width: 100%;
+	height: 8%;
+	background-color: #FF80AB; /*5D5E5D;*/
+	border-bottom: 1px solid #353635;
+}
+.tbl_hdr_bgcolor4
+{
+	background-color:#FCDEE8 ; /*#c1d3fe ;*/
+}
+
+/**********************************************************/
+/*
+/*
+/*           customization per course : Course 5
+/*
+/*
+/**********************************************************/
+
+.course5_bg{
+	background-color: #edf2fb;
+}
+.course5_tbl_bg{
+	background-color: #d7e3fc;
+	
+}
+.header5 {
+	width: 100%;
+	height: 8%;
+	background-color: #abc4ff; /*5D5E5D;*/
+	border-bottom: 1px solid #353635;
+}
+.tbl_hdr_bgcolor5
+{
+	background-color:#c1d3fe ; /*#c1d3fe ;*/
+}
+
+
+
+
+
+/* Teal Colors
+/* #E0F2F1 lightest #E7F5F4
+/* #B2DFDB   or #D0EBE9
+/* #80CBC4   or #B9E2DE
+/* #4DB6AC   or #A2D8D3
+/* #26A69A darkest  or #8BCFC8
+/* #00695C
+/* light gray #E7F2F1 or dark teal for text #004D40 */
+
+
+
+
+
+
+
+
+/* the palettes above came from culrs.com */
+/* consider this other site https://www.colorbook.io/hexcolors/view/fcf4dd for color selection
